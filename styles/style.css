@@ -1,0 +1,29 @@
+div{
+    font-family: 'Poppins', sans-serif;
+}
+body div{
+    padding: 20px;
+}
+.portfoliophoto{
+    width: auto;
+    text-align:center; 
+    padding:20px; 
+}
+#aboutmeblock{
+    display: flex;
+    align-items:center;
+}
+img{
+    width: 400px; 
+    height:auto; 
+}
+nav{
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+nav a{
+    padding: 10px;
+}
+nav form {
+    border-right: 0px;
+}
