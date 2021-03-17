@@ -72,7 +72,7 @@ li, h2{
 h1{
     color: #d3d3d3;
 }
-p{
+li >p{
     backdrop-filter: blur(10px);
 }
 body {
