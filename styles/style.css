@@ -28,7 +28,7 @@ nav a{
 nav form {
     border-right: 0px;
 }
-.aboutmeline{
+.aboutmeline, .educationline{
     padding: 5px;
 }
 .carousel-caption {
@@ -58,9 +58,12 @@ nav form {
 }
 ul > li{
     display: flex;
-
+    backdrop-filter: blur(10px);
 }
-.boldinfo {
+li, h2{
+    backdrop-filter: blur(10px);
+}
+.aboutmeboldinfo {
     display:block; 
     width:100px;
     font-size: 20px;
@@ -69,9 +72,18 @@ ul > li{
 h1{
     color: #d3d3d3;
 }
+p{
+    backdrop-filter: blur(10px);
+}
 body {
     background-image: url('backgroundscrolldown.jpg'); 
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-  }   
+}
+.boldinfo{
+    display: block;
+    font-size: 20px;
+    color: lightslategrey;
+    padding-right: 10px;
+}   
